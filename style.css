@@ -1,9 +1,7 @@
 /* 基础设置 */
 body {
-    font-family: Arial sans-serif;
-    font-size: 16px;
-    line-height: 1.6;
-    margin: 0;
+    max-width: 800px;
+    margin: 0 auto;
     padding: 20px;
 }
 
@@ -95,4 +93,52 @@ footer {
     padding: 10px;
     text-align: center;
     border-top: 1px solid #ccc;
+}
+
+/* 动画效果（轻微调整视窗大小） */
+@keyframes resize-container {
+    0% {
+        width: 800px;
+    }
+    50% {
+        width: 900px; /* 50% 适配视窗 */
+    }
+    100% {
+        width: 800px;
+    }
+}
+
+/* 页面元素样式 */
+.container {
+    max-width: 800px; /* 限制页面最大宽度 */
+}
+
+/* 示例动画 */
+.logo {
+  /* 样式可以根据需要调整 */
+}
+
+/* 基础边框 */
+.container {
+  border: 1px solid #ccc;
+}
+
+/* 示例动画效果 */
+.container {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    header .container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    /*  仅为演示 */
+    header .container {
+        width: 100%;
+    }
 }
