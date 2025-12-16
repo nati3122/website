@@ -1,0 +1,98 @@
+/* 基础设置 */
+body {
+    font-family: Arial sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header .container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header .logo {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Blog Section */
+#blog {
+    margin-bottom: 20px;
+}
+
+#blog ul {
+    list-style: none;
+    padding: 0;
+}
+
+#blog li {
+    margin-bottom: 5px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+#blog li h2 {
+    font-size: 1.2em;
+    margin-bottom: 4px;
+    color: #333;
+}
+
+#blog li a {
+    color: #333;
+    text-decoration: none;
+}
+
+/* About Section */
+#about {
+    margin-bottom: 20px;
+}
+
+#about h2 {
+    font-size: 1.5em;
+    color: #555;
+}
+
+#about p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+#about ul {
+    list-style: square;
+}
+
+/* Contact Section */
+#contact {
+    margin-bottom: 20px;
+}
+
+#contact h2 {
+    font-size: 1.5em;
+    color: #555;
+}
+
+#contact p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-top: 1px solid #ccc;
+}
